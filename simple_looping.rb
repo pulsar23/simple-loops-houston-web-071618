@@ -32,9 +32,10 @@ def while_iterator(number_of_times)
   i = 0 
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
-  while i <= number_of_times
-  puts phrase
-end
+  while i <= number_of_times do
+    i+=1 
+   puts phrase
+  end
   
 end
 
